@@ -19,18 +19,18 @@
 
         foreach (string octet in arrOfOctets)
         {
+            // If the octet is not 0, and starts with 0 
+            // or has leading/trailing space characters, return false
             if (octet != "0" && octet.StartsWith("0") || octet.StartsWith(" ") || octet.EndsWith(" "))
                 return false;
 
+            // If we cant parse the string format to an int variable, return false
             if (int.TryParse(octet, out int number))
-            {
-                if (!isAnOctet(number))
-                    return false;
-            }
-            else
-            {
                 return false;
-            }
+
+            // If its not an octet, return false
+            if (!isAnOctet(number))
+                return false;
         }
 
         return true;
