@@ -13,7 +13,6 @@ public class Kata
         {
             if (!Char.IsUpper(c)) // Check if a character is upper string
             {
-                Char.
                 sb.Append(c);
             }
             else

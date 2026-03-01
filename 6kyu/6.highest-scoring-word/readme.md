@@ -12,3 +12,14 @@ You need to return the highest scoring word as a string.
 If two words score the same, return the word that appears earliest in the original string.
 
 All letters will be lowercase and all inputs will be valid.
+
+```c#
+    ("man i need a taxi up to ubud") - Returns("taxi");
+    ("what time are we climbing up to the volcano") - Returns("volcano");
+    ("take me to semynak") - Returns("semynak");
+    ("aa b") - Returns("aa");
+    ("b aa") - Returns("b");
+    ("bb d") - Returns("bb");
+    ("d bb") - Returns("d");
+    ("aaa b") - Returns("aaa");
+```

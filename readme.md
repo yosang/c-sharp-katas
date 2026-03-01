@@ -12,7 +12,7 @@ A repo for practicing C# with .NET on [codewars](https://www.codewars.com/dashbo
 - [x] [count-characters](./6kyu/3.count-characters/)
 - [x] [consecutive-strings](./6kyu/4.consecutive-strings/)
 - [x] [break-camelcase](./6kyu/5.break-camelcase/)
-- [ ] [highest-scoring-word](./6kyu/6.highest-scoring-word/)
+- [x] [highest-scoring-word](./6kyu/6.highest-scoring-word/)
 - [ ] [sort-the-odd](./6kyu/7.sort-the-odd/)
 
 # 7kyu
